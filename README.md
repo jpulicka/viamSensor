@@ -3,15 +3,15 @@
 This module will detect person in front of the camera. It uses a Vision service and a camera
 ## Model jpm:sensor2:helloPerson
 
-Provide a description of the model and any relevant information.
+This module will detect person in front of the camera. It uses a Vision service and a camera
 
 ### Configuration
 The following attribute template can be used to configure this model:
 
 ```json
 {
-"attribute_1": <float>,
-"attribute_2": <string>
+  "vision_service": "Name of the Vision Service",
+  "actual_cam": "Name of the Camera"
 }
 ```
 
@@ -19,17 +19,17 @@ The following attribute template can be used to configure this model:
 
 The following attributes are available for this model:
 
-| Name          | Type   | Inclusion | Description                |
-|---------------|--------|-----------|----------------------------|
-| `attribute_1` | float  | Required  | Description of attribute 1 |
-| `attribute_2` | string | Optional  | Description of attribute 2 |
+| Name             | Type   | Inclusion | Description                |
+|------------------|--------|-----------|----------------------------|
+| `vision_service` | string | Required  | Name of the Vision Service |
+| `actual_cam`     | string | Required  | Name of the Camera         |
 
 #### Example Configuration
 
 ```json
 {
-  "attribute_1": 1.0,
-  "attribute_2": "foo"
+  "vision_service": "vision1",
+  "actual_cam": "WebCamera"
 }
 ```
 
