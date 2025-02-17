@@ -2,7 +2,7 @@
   "$schema": "https://dl.viam.dev/module.schema.json",
   "module_id": "jpm:sensor2",
   "visibility": "private",
-  "url": "",
+  "url": "https://github.com/jpulicka/viamSensor",
   "description": "Modular sensor component: helloPerson",
   "models": [
     {
