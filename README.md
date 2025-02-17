@@ -1,7 +1,6 @@
 # Module sensor2 
 
-Provide a description of the purpose of the module and any relevant information.
-
+This module will detect person in front of the camera. It uses a Vision service and a camera
 ## Model jpm:sensor2:helloPerson
 
 Provide a description of the model and any relevant information.
