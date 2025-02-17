@@ -1,0 +1,17 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "jpm:sensor2",
+  "visibility": "private",
+  "url": "",
+  "description": "Modular sensor component: helloPerson",
+  "models": [
+    {
+      "api": "rdk:component:sensor",
+      "model": "jpm:sensor2:helloPerson",
+      "short_description": "Provide a short (100 characters or less) description of this model here",
+      "markdown_link": "README.md#model-jpmsensor2helloperson"
+    }
+  ],
+  "entrypoint": "./run.sh",
+  "first_run": ""
+}
